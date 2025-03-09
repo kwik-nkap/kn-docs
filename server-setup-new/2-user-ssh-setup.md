@@ -1,0 +1,1 @@
+Copy the ssh key of the user to the server
