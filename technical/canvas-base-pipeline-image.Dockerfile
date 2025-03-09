@@ -9,6 +9,7 @@ RUN apk add --no-cache \
     pango-dev \
     jpeg-dev \
     giflib-dev \
+    curl \
     pkgconfig
 
 
