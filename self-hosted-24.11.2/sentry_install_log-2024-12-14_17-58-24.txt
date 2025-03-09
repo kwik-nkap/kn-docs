@@ -1,0 +1,5 @@
+▶ Parsing command line ...
+
+▶ Detecting Docker platform
+Cannot connect to the Docker daemon at unix:///Users/dullbenz/.docker/run/docker.sock. Is the docker daemon running?
+FAIL: Unsupported docker architecture .
