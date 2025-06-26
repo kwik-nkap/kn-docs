@@ -39,8 +39,8 @@ RUN apk update && apk add --no-cache --virtual \
 # RUN apk del python3 make g++ # Remove unnecessary build dependencies
 
 # Build the image with the following command (If running from a mac or windows, use the second command)
-# docker build -t ghcr.io/kwik-nkap/base-with-canvas-puppeteer-node:21-alpine -f canvas-base-pipeline-image.Dockerfile .
-# docker build --platform linux/amd64 -t ghcr.io/kwik-nkap/base-with-canvas-puppeteer-node:21-alpine -f canvas-base-pipeline-image.Dockerfile .
+# docker build -t ghcr.io/kwik-nkap/base-with-canvas-puppeteer-node:21-alpine -f puppeteer-with-canvas-ready-node-alpine.Dockerfile .
+# docker build --platform linux/amd64 -t ghcr.io/kwik-nkap/base-with-canvas-puppeteer-node:21-alpine -f puppeteer-with-canvas-ready-node-alpine.Dockerfile .
 
 # Build for mac arm with below
-# docker build --platform linux/amd64 -t ghcr.io/kwik-nkap/base-with-canvas-puppeteer-node:21-alpine -f canvas-base-pipeline-image.Dockerfile .
+# docker build --platform linux/amd64 -t ghcr.io/kwik-nkap/base-with-canvas-puppeteer-node:21-alpine -f puppeteer-with-canvas-ready-node-alpine.Dockerfile .
